@@ -27,10 +27,17 @@ function updateTimer() {
     const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
     const seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
+    // Первый таймер
     document.getElementById('days').textContent = days.toString().padStart(2, '0');
     document.getElementById('hours').textContent = hours.toString().padStart(2, '0');
     document.getElementById('minutes').textContent = minutes.toString().padStart(2, '0');
     document.getElementById('seconds').textContent = seconds.toString().padStart(2, '0');
+
+    // Второй таймер
+    document.getElementById('categories-days').textContent = days.toString().padStart(2, '0');
+    document.getElementById('categories-hours').textContent = hours.toString().padStart(2, '0');
+    document.getElementById('categories-minutes').textContent = minutes.toString().padStart(2, '0');
+    document.getElementById('categories-seconds').textContent = seconds.toString().padStart(2, '0');
 }
 
 const timerInterval = setInterval(updateTimer, 1000);
