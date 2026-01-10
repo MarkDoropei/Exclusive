@@ -255,15 +255,12 @@
 
 .card-top-img_big2{
     width:190px;
-    height:110px;
     padding:55px 40px 95px 40px;
     position: absolute;
 }
 
 .card-top-img_big3{
-    width:170px;
-    height:130px;
-    padding:60px 50px;
+    padding:50px;
     position: absolute;
 }
 
@@ -283,8 +280,7 @@
 
 .card-top-img_big6{
     width:190px;
-    height:190px;
-    padding:30px;
+    padding:40px;
     position: absolute;
 }
 
@@ -298,6 +294,26 @@
 .card-bottom-img_big1{
     width: 190px;
     padding:40px;
+    position: absolute;
+}
+
+.card-top-img_big8{
+    height:160px;
+    position: absolute;
+    padding-right: 65px;
+    padding-top: 40px;
+}
+
+.card-top-img_big9 {
+    width: 190px;
+    height: 160px;
+    padding: 30px;
+    position: absolute;
+}
+
+.card-top-img_big10{
+    height: 190px;
+    padding: 45px;
     position: absolute;
 }
 
@@ -597,4 +613,53 @@
     line-height: 20px;
     color: #000000;
     text-align: center;
+}
+
+.slider3 .card-top {
+    display: flex;
+    width: 270px;
+    height: 250px;
+    background: #F5F5F5;
+    border-radius: 4px;
+    justify-content: flex-end;
+    gap: 12px;
+}
+
+.explore{
+    margin-top: 71px;
+}
+
+.explore-top__wrapper p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #DB4444;
+}
+
+.explore-top__wrapper h2{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 48px;
+    letter-spacing: 0.04em;
+    margin-top: 20px;
+}
+
+.explore-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.explore-top__wrapper div{
+    display: flex;
+    align-items: center;
+    gap:16px;
+}
+
+.swiper-button-box{
+    margin-right: 20px;
 }

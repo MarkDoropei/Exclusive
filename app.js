@@ -14,6 +14,15 @@ var slider2 = new Swiper('.slider2', {
     },
 });
 
+var slider3 = new Swiper('.slider3', {
+    loop: true,
+    slidesPerView: 4,
+    navigation: {
+        nextEl: ".swiper-button-next1",
+        prevEl: ".swiper-button-prev1",
+    },
+});
+
 // Таймер обратного отсчета
 const countdownDate = new Date();
 countdownDate.setDate(countdownDate.getDate() + 4);
