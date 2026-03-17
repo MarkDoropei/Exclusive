@@ -23,13 +23,15 @@
     align-items: center;
 }
 
-.Exclusive-welcome__navbar h1{
+.Exclusive-welcome__navbar-inner{
     font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
     font-size: 24px;
     line-height: 24px;
     letter-spacing: 0.03em;
+    color: #000;
+    text-decoration: none;
 }
 
 .navbar-navigation{
@@ -44,6 +46,17 @@
     font-size: 16px;
     line-height: 24px;
     text-align: center;
+}
+
+.navbar-navigation-item-inner{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color:#000;
+    text-decoration: none;
 }
 
 .navbar-functions{
@@ -1046,4 +1059,81 @@
     margin-top: 60px;
     margin-bottom: 24px;
     text-align: center;
+}
+
+.sign-up{
+    display: flex;
+    margin-top: 60px;
+}
+
+.sign-up__box{
+    display: flex;
+    flex-direction: column;
+    width:370px;
+    height:530px;
+}
+
+.sign-up__box h2{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 30px;
+    letter-spacing: 0.04em;
+}
+
+.sign-up__box p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    text-decoration: none;
+    margin-top: 24px;
+}
+
+.sign-up__box a{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    text-decoration: none;
+}
+
+.sign-up__box input{
+    height:32px;
+    width:370px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    opacity: 0.4;
+    border:none;
+    border-bottom: 1px solid #000;
+    margin-top: 40px;
+}
+
+.sign-up__box button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 122px;
+    gap: 10px;
+    width: 370px;
+    height: 55px;
+    background: #DB4444;
+    border-radius: 4px;
+    border: none;
+    color:#fff;
+    margin-top: 40px;
+}
+
+.sign-up__box div{
+    display: flex;
 }
