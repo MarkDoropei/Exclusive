@@ -1062,8 +1062,12 @@
 }
 
 .sign-up{
-    display: flex;
     margin-top: 60px;
+}
+
+.sign-up__wrapper{
+    display: flex;
+    justify-content: space-between;
 }
 
 .sign-up__box{
@@ -1136,4 +1140,70 @@
 
 .sign-up__box div{
     display: flex;
+}
+
+.sign-up__wrapper img {
+    width:655px;
+    height:631px;
+    border-radius:5px;
+}
+
+.sign-up-logging{
+    margin-top: 16px;
+}
+
+.sign-up-logging p {
+    margin-left: 31px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.sign-up-logging a {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    opacity: 0.7;
+    text-decoration: underline;
+}
+
+.error h2{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 110px;
+    line-height: 115px;
+    letter-spacing: 0.03em;
+    margin-top: 96px;
+}
+ 
+.error p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 32px;
+}
+
+.error button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 48px;
+    gap: 10px;
+    background: #DB4444;
+    border-radius: 4px;
+    width:254px;
+    height:56px;
+    color:#fff;
+    border:none;
+    margin-top: 32px;
+    text-decoration: none;
 }
