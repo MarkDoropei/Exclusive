@@ -1176,7 +1176,11 @@
     font-family: 'Inter';
     font-style: normal;
     font-weight: 500;
+<<<<<<< HEAD
     font-size: 110px; 
+=======
+    font-size: 110px;
+>>>>>>> origin/main
     line-height: 115px;
     letter-spacing: 0.03em;
     margin-top: 96px;
@@ -1206,9 +1210,12 @@
     border:none;
     margin-top: 32px;
     text-decoration: none;
+<<<<<<< HEAD
     cursor: pointer;
 }
 
 .settings{
     margin-top: 150px;
+=======
+>>>>>>> origin/main
 }
